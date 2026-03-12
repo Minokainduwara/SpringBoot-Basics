@@ -1,0 +1,50 @@
+# ======================
+# IntelliJ IDEA
+# ======================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ======================
+# Maven
+# ======================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ======================
+# Java
+# ======================
+*.class
+*.jar
+*.war
+*.ear
+
+# ======================
+# Logs
+# ======================
+*.log
+logs/
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Environment / Config
+# ======================
+.env
+.env.*
+application-local.properties
+application-dev.properties
+application-prod.properties
+
+# ======================
+# Temporary files
+# ======================
+*.swp
+*.swo
+*~
