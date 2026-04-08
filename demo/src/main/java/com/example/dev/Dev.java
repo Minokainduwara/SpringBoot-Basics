@@ -1,14 +1,16 @@
 package com.example.dev;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Dev {
     @Autowired
-    private laptop lp;
+    @Qualifier("desktop")
+    private Computer computer;
     public void build(){
-        lp.compile();
+        computer.compile();
         System.out.println("Dev build");
     }
 }
